@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    testing
     <script src="scripts/ekke.js"></script>
 </body>
 
