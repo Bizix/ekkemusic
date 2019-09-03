@@ -12,36 +12,37 @@
 </head>
 
 <body>
-    <header id="header">
-        <div class="socialmedia">
-            <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
-                    class="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
-                    class="fab fa-instagram"></i></a>
-            <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank" id="apple"><i
-                    class="fab fa-apple"></i></a>
-            <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
-                    class="fab fa-spotify"></i></a>
-        </div>
-        <div class="logo"><img src="images/ekkelogo.svg" alt=""></div>
-        <div id="nav">
-            <div id="home">Home</div>
-            <div id="music">Music</div>
-            <!-- https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ -->
-            <div id="shows">Shows</div>
-            <div id="about">About</div>
-            <div id="contact">Contact</div>
-        </div>
-
+    <section class="home_container">
+        <header id="header">
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank" id="apple"><i
+                        class="fab fa-apple"></i></a>
+                <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
+                        class="fab fa-spotify"></i></a>
+            </div>
+            <div class="logo"><img src="images/ekkelogo.svg" alt="Ekke logo"></div>
+            <nav class="navbar_container">
+                <ul class="links">
+                    <li class="link"><a href="#">Home</a></li>
+                    <li class="link"><a href="https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ" target="_blank">Music</a></li>
+                    <li class="link"><a href="#">Shows</a></li>
+                    <li class="link"><a href="#">About</a></li>
+                    <li class="link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="scroll_icon">
             <div class="wheel_animation">
             </div> 
         </div>
-    </header>
-    <section></section>
+    </section>
     <section></section>
     <section></section>
     <script src="scripts/ekke.js"></script>
