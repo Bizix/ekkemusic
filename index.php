@@ -38,6 +38,7 @@
                 </ul>
             </nav>
         </header>
+        
         <div class="scroll_icon">
             <div class="wheel_animation">
             </div> 
