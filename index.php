@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+<h1>David's test</h1>
     <script src="scripts/ekke.js"></script>
 </body>
 
