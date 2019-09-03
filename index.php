@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="images/ekkelogo.ico" type="image/x-icon"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,7 +20,7 @@
             <div id="apple">Apple Icon</div>
             <div id="spotify">Spotify Icon</div>
         </div>
-        <div class="logo"><img src="ekkelogo.svg" alt=""></div>
+        <div class="logo"><img src="images/ekkelogo.svg" alt=""></div>
         <div id="nav">
             <div id="home">Home</div>
             <div id="music">music</div>
@@ -27,6 +28,11 @@
             <div id="shows">Shows</div>
             <div id="about">About</div>
             <div id="contact">Contact</div>
+        </div>
+
+        <div class="scroll_icon">
+            <div class="wheel_animation">
+            </div> 
         </div>
     </header>
     <section></section>
