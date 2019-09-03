@@ -10,12 +10,8 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-    Master test sean
-=======
 
-<h1>David's test</h1>
->>>>>>> 67ea2e25cc4a024b764a750138ce1b6c0932136f
+    <h1>David's test</h1>
     <script src="scripts/ekke.js"></script>
 </body>
 
