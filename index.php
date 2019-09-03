@@ -12,7 +12,7 @@
 
 <body>
     <header id="header">
-        <div class="socialmedia">
+        <div class="socialMedia">
             <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
                     class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
@@ -20,8 +20,8 @@
                     class="fab fa-youtube"></i></a>
             <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
                     class="fab fa-instagram"></i></a>
-            <a href="https://music.apple.com/kr/artist/ekke/291611671?app=music" target="_blank" id="apple"><i
-                    class="fab fa-apple"></i></a>
+            <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank"
+                id="apple"><i class="fab fa-apple"></i></a>
             <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
                     class="fab fa-spotify"></i></a>
         </div>

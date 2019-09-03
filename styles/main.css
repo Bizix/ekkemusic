@@ -1,0 +1,29 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header>div {
+    width:33%;
+}
+
+.socialMedia >a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.socialMedia i{
+    font-size: 25px;
+    color:black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;  
+}
