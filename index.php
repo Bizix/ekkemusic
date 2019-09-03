@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    testing
+    Master test sean
     <script src="scripts/ekke.js"></script>
 </body>
 
