@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/f76a3c0c83.js"></script>
     <link rel="stylesheet" href="styles/main.css">
     <title>EkkeMusic</title>
 </head>
@@ -12,17 +13,22 @@
 <body>
     <header id="header">
         <div class="socialmedia">
-            <div id="facebook">Facebook Icon</div>
-            <div id="twitter">Twitter Icon</div>
-            <div id="youtube">YouTube Icon</div>
-            <div id="instagram">Instagram Icon</div>
-            <div id="apple">Apple Icon</div>
-            <div id="spotify">Spotify Icon</div>
+            <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
+                    class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://music.apple.com/kr/artist/ekke/291611671?app=music" target="_blank" id="apple"><i
+                    class="fab fa-apple"></i></a>
+            <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
+                    class="fab fa-spotify"></i></a>
         </div>
-        <div class="logo"><img src="ekkelogo.svg" alt=""></div>
+        <div class="logo"><img src="images/ekkelogo.svg" alt=""></div>
         <div id="nav">
             <div id="home">Home</div>
-            <div id="music">music</div>
+            <div id="music">Music</div>
             <!-- https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ -->
             <div id="shows">Shows</div>
             <div id="about">About</div>
