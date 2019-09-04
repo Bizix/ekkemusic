@@ -1,35 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .home_container {
-    width: 100%;
-    height: 100vh;
-}
-
-.home_container::after {
     content: "";
-    background: url('../images/Shoots/6.jpg') no-repeat center center fixed;
+    background: url('../images/Shoots/1.jpg') no-repeat center center ;
     background-size: cover;
-    opacity: 0.6;
+    background-position: 0px -268px;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;
+    overflow: hidden;
 }
 
 #header {
-    background-color: rgb(221, 231, 124);
+    background-color: rgb(252, 223, 58);
     display: flex;
     justify-content: center;
     margin-top: 20px;
     padding-left: 10%;
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 
 .header_container {
@@ -94,6 +93,8 @@ body {
 
 .hero_container {
     /* width: 100%; */
+    position: absolute;
+    left: 200px;
     height: 65%;
     margin-top: 30px;
     display: flex;
@@ -156,3 +157,22 @@ body {
         transform: translate(-50%, 45%);
         opacity: 0;
     }
+}
+
+.shows_container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.shows_container {
+    background: url('../images/Performance/CL7B0050.jpg') no-repeat center center ;
+    background-size: cover;
+    background-position: 0px -100px;
+    top: 100vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: relative;
+    z-index: -1;
+}

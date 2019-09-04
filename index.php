@@ -45,19 +45,21 @@
             </div>
         </header>
         <div class="hero_container">
-            <div class="hero_img">
+            <!-- <div class="hero_img">
                 <img src="images/Shoots/3.jpg" alt="">
-            </div>
-            <div class="hero_video">
+            </div> -->
+            <!-- <div class="hero_video">
                 <iframe width="720" height="420" src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            </div>
+            </div> -->
         </div>
-        <div class="scroll_icon">
+        <!-- <div class="scroll_icon">
             <div class="wheel_animation">
             </div>
-        </div>
+        </div> -->
+    </section>
+    <section class="shows_container">
     </section>
     <script src="scripts/ekke.js"></script>
 </body>
