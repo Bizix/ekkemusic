@@ -6,18 +6,14 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.home_container {
-    content: "";
+#home_container {
+    width: 100%;
+    height: 100vh;
     background: url('../images/Shoots/1.jpg') no-repeat center center fixed;
+    background-position: 0% 100%;
     background-size: cover;
-    background-position: 0px -268px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    overflow: hidden;
+    padding-top: 20px;
+
 }
 
 #header {
@@ -159,20 +155,35 @@ body {
     }
 }
 
-.shows_container {
-    width: 100%;
+#shows_container {
     height: 100vh;
-    /* background-color: black; */
+    background: url('../images/Performance/12-2018-March-3rd-\ Ekke\ Music\ Red\ Room\ Show-CL7B0053.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
-.shows_container {
-    background: url('../images/Performance/CL7B0050.jpg') no-repeat center center fixed;
+#about_container {
+    background: url('../images/Shoots/10.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position: 0px -100px;
-    top: 100vh;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: relative;
-    z-index: -1;
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 35%;
+}
+
+.about h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
