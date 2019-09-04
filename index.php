@@ -38,7 +38,9 @@
                 </ul>
             </nav>
         </header>
-        
+        <div class="hero_container">
+            
+        </div>
         <div class="scroll_icon">
             <div class="wheel_animation">
             </div> 
