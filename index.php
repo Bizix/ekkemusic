@@ -43,7 +43,7 @@
         </header>
         <div class="hero_container">
             <div class="hero_img">
-                <img src="images/Shoots/1.jpg" alt="">
+                <img src="images/Shoots/3.jpg" alt="">
             </div>
             <div class="hero_video">
                 <iframe width="720" height="420" src="https://www.youtube.com/embed/NQi8YZGFxGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
