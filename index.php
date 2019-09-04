@@ -64,6 +64,7 @@
            <p>Born in Accra, Ghana, Ekke moved with his family to New Jersey, where he lived from ages 4-7. Returning to Ghana by age 8, he grew up changing schools and moving houses all around Accra. He came to Canada in 2010 to attend the University of British Columbia, graduating with a Bachelor of Commerce from the UBC Sauder School of Business in 2015.</p>
            <p>Ekke has been exposed to a variety of genres throughout his upbringing, from Motown Funk and Jazz to Alternative Rock and of course, hip-hop. Influenced by rappers such as Eminem, Kanye West, The Game, Lil’ Wayne, Dr. Dre, Lupe Fiasco & Jay-Z, Ekke fell in love with hip-hop primarily for the lyricism and story telling. Both of these are major focal points in his own music.</p>
            <p>Ekke makes use of clever word play, exploration of dark & exaggerated themes, hyperbole and complex rhyme schemes to paint pictures and tell stories. Initially rapping under the moniker ‘Palendroam’, Ekke honed his craft writing original lyrics over popular beats before transitioning into production and creation of entirely original material.</p>
+        
         </div>
     </section>
     <script src="scripts/ekke.js"></script>
