@@ -39,6 +39,7 @@
                                 target="_blank">Music</a></li>
                         <li class="link"><a href="#shows_container">Shows</a></li>
                         <li class="link"><a href="#about_container">About</a></li>
+                        <li class="link"><a href="#media_container">Media</a></li>
                         <li class="link"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -60,6 +61,12 @@
         </div> -->
     </section>
     <section id="shows_container">
+        <div id="shows">
+            <h2>Upcoming Shows</h2>
+            <ul>
+                <li>DATE LOCATION LINK_TO_TIX</li>
+            </ul>
+        </div>
     </section>
     <section id="about_container">
         <div class="about">
@@ -79,6 +86,16 @@
                 Ekke honed his craft writing original lyrics over popular beats before transitioning into production
                 and creation of entirely original material.</p>
 
+        </div>
+    </section>
+    <section id="media_container">
+        <div id="media">
+            <div id="insta_container">
+            </div>
+            <div id="youtube_container">
+                <iframe id="ytplayer" type="text/html" width="896" height="504"
+                    src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"></iframe>';
+            </div>
         </div>
     </section>
     <script src="scripts/ekke.js"></script>

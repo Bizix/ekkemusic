@@ -9,8 +9,17 @@ body {
 #home_container {
     width: 100%;
     height: 100vh;
-    background: url('../images/Shoots/1.jpg') no-repeat center center fixed;
-    background-position: 0% 100%;
+
+    /* background: url('../images/Shoots/1.jpg') no-repeat center center fixed;
+    background-position: 0% 100%; */
+
+    /* background: url('../images/Shoots/6.jpg') no-repeat center center fixed; */
+
+    background: url('../images/Shoots/5.png') no-repeat center center fixed;
+
+    /* background: url('../images/Shoots/4.jpg') no-repeat center center fixed; */
+
+
     background-size: cover;
     padding-top: 20px;
 
@@ -157,15 +166,41 @@ body {
 
 #shows_container {
     height: 100vh;
-    background: url('../images/Performance/12-2018-March-3rd-\ Ekke\ Music\ Red\ Room\ Show-CL7B0053.jpg') no-repeat center center fixed;
+    background: url('../images/Performance/performance1.jpg') no-repeat center center fixed;
     background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+
+#shows {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 35%;
+}
+
+#shows h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#shows p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 
 #about_container {
     background: url('../images/Shoots/10.jpg') no-repeat center center fixed;
+    /* or use shoots/10.jph + black background */
+
+    /* background-color: black; */
     background-size: cover;
     height: 100vh;
-    background-color: rgb(41, 41, 41);
+    /* background-color: rgb(41, 41, 41); */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -184,6 +219,40 @@ body {
 }
 
 .about p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+
+#media_container {
+    background: url('../images/Shoots/2.jpg') no-repeat center center fixed;
+ /* background: url('../images/Shoots/1.jpg') no-repeat center center fixed;
+    background-position: 0% 100%; */
+
+    /* or use shoots/10.jph + black background */
+
+    /* background-color: black; */
+    background-size: cover;
+    height: 100vh;
+    /* background-color: rgb(41, 41, 41); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.media {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 35%;
+}
+
+.media h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.media p {
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
