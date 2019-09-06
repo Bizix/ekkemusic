@@ -1,7 +1,7 @@
 var getYoutube = function () {
     var yxhr = new XMLHttpRequest();
     var key = "AIzaSyAtO185zLEYwvnXo_fA4_MFJhwkTPBfaDo";
-    var video_id
+    var youtubeID;
 
     // PROBLEM 1
     // reference site : https://developers.google.com/youtube/v3/guides/implementation/playlists
@@ -24,7 +24,8 @@ var getYoutube = function () {
     yxhr.onreadystatechange = function () {
         if (yxhr.readyState === XMLHttpRequest.DONE && yxhr.status === 200) {
             let objectYT = JSON.parse(yxhr.responseText);
-            // video_id = objectYT.items[0].id.videoId;
+            var youtube_container = document.querySelector('#youtube_container');
+            youtube_container.innerHTML = ' <iframe id="ytplayer" type="text/html" width="896" height="504" src="https://www.youtube.com/embed/' + youtubeID + '"frameborder="0"></iframe>';
             // youtube_container.innerHTML = most recent upload in playlist "videos" (not first in playlist)
         }
     }

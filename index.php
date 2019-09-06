@@ -93,8 +93,8 @@
             <div id="insta_container">
             </div>
             <div id="youtube_container">
-                <iframe id="ytplayer" type="text/html" width="896" height="504"
-                    src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"></iframe>';
+                <!-- <iframe id="ytplayer" type="text/html" width="896" height="504"
+                    src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"></iframe>'; -->
             </div>
         </div>
     </section>
