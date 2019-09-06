@@ -1,4 +1,4 @@
-function getYoutube() {
+var getYoutube = function () {
     var yxhr = new XMLHttpRequest();
     var key = "AIzaSyAtO185zLEYwvnXo_fA4_MFJhwkTPBfaDo";
     var video_id
@@ -25,16 +25,13 @@ function getYoutube() {
         if (yxhr.readyState === XMLHttpRequest.DONE && yxhr.status === 200) {
             let objectYT = JSON.parse(yxhr.responseText);
             // video_id = objectYT.items[0].id.videoId;
+            // youtube_container.innerHTML = most recent upload in playlist "videos" (not first in playlist)
         }
     }
     yxhr.send();
     return video_id;
 }
 
-function constructYT() {
-    // call getYoutube
-    // youtube_container.innerHTML = most recent upload in playlist "videos"
-}
 // PROBLEM 2
 // reference website 1: https://www.instagram.com/developer/embedding/#oembed
 // reference website 2: https://ariasthompson.com/2018/02/08/adding-instagram-feed-website-without-plugin/
@@ -46,7 +43,7 @@ function constructYT() {
 // construct containers for 9 most recent IG post
 // insta_container.innerHTML = loop for posts
 
-function getInsta() {
+var getInsta = function () {
     var xhr = new XMLHttpRequest();
     var url = "https://api.instagram.com/oembed?url=https://www.instagram.com/itsekke/";
     xhr.open('GET', url, true);
@@ -69,3 +66,7 @@ function getInsta() {
     }
     xhr.send();
 }
+
+getYoutube;
+getInsta;
+
