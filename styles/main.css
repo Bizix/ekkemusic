@@ -5,37 +5,28 @@ html {
 body {
     margin: 0;
     padding: 0;
+    scroll-snap-type: y mandatory;
+}
+
+#home_container,
+#shows_container,
+#about_container {
+    scroll-snap-align: start;
+    height: 100vh;
 }
 
 #home_container {
-    width: 100%;
-    height: 100vh;
-    background: url('../images/Shoots/6.jpg') no-repeat center center fixed;
+    /* width: 100%;
+    height: 100vh; */
+    background: url('../images/Shoots/5.png') no-repeat center center fixed;
     background-size: cover;
     padding-top: 20px;
 }
-
-
-/* Hey Sean */
-
-/* .home_container::after {
-    content: "";
-    background: url('../images/Shoots/6.jpg') no-repeat center center fixed;
-    background-size: cover;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-} */
 
 #header {
     background-color: rgb(252, 223, 58);
     display: flex;
     justify-content: center;
-    /* margin-top: 40px; */
     padding-left: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -93,8 +84,21 @@ body {
 }
 
 .link a:hover {
-    color: rgb(255, 255, 255);
-    border-bottom: 3px solid rgb(54, 54, 54);
+    color: rgb(102, 102, 102);
+}
+
+.link a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s;
+}
+
+.link a:hover::after {
+    width: 100%;
+    transition: width 0.3s;
 }
 
 .logo {
@@ -112,7 +116,6 @@ body {
 }
 
 .hero_container {
-    /* width: 100%; */
     height: 65%;
     /* margin-top: 5px; */
     display: flex;
@@ -127,39 +130,28 @@ body {
 }
 
 .hero_img img {
-    width: 60%;
+    width: 50%;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
-}
-
-.hero_video {
-    width: 40%;
-    height: 70%;
-    margin-top: 250px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
 .scroll_icon {
     position: fixed;
-    border: 2px solid rgba(255, 255, 255, 1);
-    width: 23px;
-    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    width: 17px;
+    height: 30px;
     border-radius: 85px;
     left: 50%;
-    bottom: 2%;
+    bottom: 7%;
     transform: translateX(-50%);
     /* margin-top: 5%; */
 }
 
 .wheel_animation {
     position: absolute;
-    background-color: rgba(255, 255, 255, 1);
-    width: 4px;
-    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 3px;
+    height: 9px;
     border-radius: 15px;
     left: 50%;
     /* bottom: 0; */
@@ -181,27 +173,100 @@ body {
 }
 
 #shows_container {
-    /* width: 100%; */
-    height: 100vh;
-    background: url('../images/Performance/12-2018-March-3rd-\ Ekke\ Music\ Red\ Room\ Show-CL7B0053.jpg') no-repeat center center fixed;
+    /* height: 100vh; */
+    background: url('../images/Performance/performance1.jpg') no-repeat center center fixed;
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shows_content {
+    width: 35%;
+    margin-right: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 150px;
+}
+
+.shows_content h2 {
+    width: 49%;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.404);
+}
+
+.show_header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    background-color: rgba(168, 168, 168, 0.2);
+}
+
+.show {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.212);
+    padding: 10px;
+}
+
+.show_date {
+
+    margin: 0;
+}
+
+.show_date p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.top_date,
+.bottom_date {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.middle_date {
+    font-size: 1.2rem;
+}
+
+.show_ticket button {
+    background-color: rgb(199, 1, 0);
+    /* background-color: rgb(252, 223, 58); */
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.show_ticket button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(199, 1, 0);
+    /* color: rgb(202, 175, 24); */
 }
 
 #about_container {
     background: url('../images/Shoots/10.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: rgb(41, 41, 41);
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 80px;
+    /* padding-right: 80px; */
 }
 
 .about {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
-    width: 35%;
+    width: 36%;
+    align-self: flex-end;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
 .about h2 {
@@ -211,5 +276,46 @@ body {
 
 .about p {
     font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#footer_container {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.social_footer a i {
+    color: aliceblue;
+}
+
+.social_footer a i:hover {
+    color: rgb(195, 204, 69);
+}
+
+.contact_me p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.contact_me p span {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.copyright p {
+    font-size: 0.8rem;
     letter-spacing: 1px;
 }
