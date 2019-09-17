@@ -68,6 +68,16 @@
             </ul>
         </div>
     </section>
+    <section id="media_container">
+        <div id="media">
+            <div id="insta_container">
+            </div>
+            <div id="youtube_container">
+                <!-- <iframe id="ytplayer" type="text/html" width="896" height="504"
+                    src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"></iframe>'; -->
+            </div>
+        </div>
+    </section>
     <section id="about_container">
         <div class="about">
             <h2>About Me</h2>
@@ -88,16 +98,7 @@
 
         </div>
     </section>
-    <section id="media_container">
-        <div id="media">
-            <div id="insta_container">
-            </div>
-            <div id="youtube_container">
-                <!-- <iframe id="ytplayer" type="text/html" width="896" height="504"
-                    src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"></iframe>'; -->
-            </div>
-        </div>
-    </section>
+
     <script src="scripts/ekke.js"></script>
 </body>
 

@@ -14,8 +14,8 @@ var getYoutube = function () {
     // '&key=' + key;
 
     // Part 2 
-    var url = 'https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.playlists.list? +
-    'part=snippet,contentDetails' +
+    var url = 'https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.playlists.list? ' +
+        'part=snippet,contentDetails' +
         '&channelId=UC1LupZh5xH3EATWUtHr07RA';
 
     // Goal is to load most recently uploaded video in the playlist "videos"
