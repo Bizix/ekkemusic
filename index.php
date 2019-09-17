@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <link rel="shortcut icon" href="images/ekkelogo.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/ekkelogo.ico" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <script src="https://kit.fontawesome.com/f76a3c0c83.js"></script>
     <title>EkkeMusic</title>
@@ -19,13 +19,14 @@
                 <div class="socialMedia">
                     <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i
+                            class="fab fa-twitter"></i></a>
                     <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
                             class="fab fa-youtube"></i></a>
                     <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
                             class="fab fa-instagram"></i></a>
-                    <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank" id="apple"><i
-                            class="fab fa-apple"></i></a>
+                    <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank"
+                        id="apple"><i class="fab fa-apple"></i></a>
                     <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
                             class="fab fa-spotify"></i></a>
                 </div>
@@ -33,7 +34,9 @@
                 <nav class="navbar_container">
                     <ul class="links">
                         <li class="link"><a href="#home_container">Home</a></li>
-                        <li class="link"><a href="https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ" target="_blank">Music</a></li>
+                        <li class="link"><a
+                                href="https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ"
+                                target="_blank">Music</a></li>
                         <li class="link"><a href="#shows_container">Shows</a></li>
                         <li class="link"><a href="#media_container">Media</a></li>
                         <li class="link"><a href="#about_container">About</a></li>
@@ -49,8 +52,8 @@
         </div>
         <div class="scroll_icon">
             <div class="wheel_animation">
-            </div> 
-        </div>
+            </div>
+        </div> -->
     </section>
     <section id="shows_container">
         <div class="shows_content">
@@ -100,6 +103,16 @@
             </div>
         </div>
     </section>
+    <section id="media_container">
+        <div id="media">
+            <div id="insta_container">
+            </div>
+            <div id="youtube_container">
+                <!-- <iframe id="ytplayer" type="text/html" width="896" height="504"
+                    src="https://www.youtube.com/embed/axnt-TT6N4I" frameborder="0"></iframe>'; -->
+            </div>
+        </div>
+    </section>
     <section id="about_container">
         <div class="about">
         <h2>About Me</h2>
@@ -128,25 +141,6 @@
             </div>
     </footer>
     </section>
-    <!-- <footer id="footer_container">
-        <div class="footer">
-            <div class="socialMedia social_footer">
-                <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
-                        class="fab fa-youtube"></i></a>
-                <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank" id="apple"><i
-                        class="fab fa-apple"></i></a>
-                <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
-                        class="fab fa-spotify"></i></a>
-            </div>
-            <div class="contact_me"><p><span>Contact:<span> ekke@gmail.com</p></div>
-            <div class="copyright"><p>&copy; Created by Sean Sernasie and David Vilar</p></div>
-        </div>
-    </footer> -->
     <script src="scripts/ekke.js"></script>
 </body>
 
