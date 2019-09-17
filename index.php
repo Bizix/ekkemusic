@@ -35,8 +35,9 @@
                         <li class="link"><a href="#home_container">Home</a></li>
                         <li class="link"><a href="https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ" target="_blank">Music</a></li>
                         <li class="link"><a href="#shows_container">Shows</a></li>
+                        <li class="link"><a href="#media_container">Media</a></li>
                         <li class="link"><a href="#about_container">About</a></li>
-                        <li class="link"><a href="#">Contact</a></li>
+                        <li class="link"><a href="#about_container">Contact</a></li>
                     </ul>
                 </nav>
             </div>
