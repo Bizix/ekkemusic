@@ -13,47 +13,42 @@
 </head>
 
 <body>
-    <section id="home_container">
-        <header id="header">
-            <div class="header_container">
-                <div class="socialMedia">
-                    <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
-                            class="fab fa-youtube"></i></a>
-                    <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank"
-                        id="apple"><i class="fab fa-apple"></i></a>
-                    <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
-                            class="fab fa-spotify"></i></a>
-                </div>
-                <div class="logo"><img src="images/ekkelogo.svg" alt="Ekke logo"></div>
-                <nav class="navbar_container">
-                    <ul class="links">
-                        <li class="link"><a href="#home_container">Home</a></li>
-                        <li class="link"><a
-                                href="https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ"
-                                target="_blank">Music</a></li>
-                        <li class="link"><a href="#shows_container">Shows</a></li>
-                        <li class="link"><a href="#media_container">Media</a></li>
-                        <li class="link"><a href="#about_container">About</a></li>
-                        <li class="link"><a href="#about_container">Contact</a></li>
-                    </ul>
-                </nav>
+    <header id="header">
+        <div class="header_container">
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UC1LupZh5xH3EATWUtHr07RA" target="_blank" id="youtube"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/itsekke/" target="_blank" id="instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://music.apple.com/ca/artist/ekke/1223175655?app=music&ign-mpt=uo%3D4" target="_blank"
+                    id="apple"><i class="fab fa-apple"></i></a>
+                <a href="https://open.spotify.com/artist/5PLFMpk4XHu8rdpKu4dIta" target="_blank" id="spotify"><i
+                        class="fab fa-spotify"></i></a>
             </div>
-        </header>
-        <div class="hero_container">
-            <!-- <div class="hero_img">
-                <img src="images/Shoots/image_from_ios.jpg" alt="">
-            </div> -->
+            <div class="logo"><img src="images/ekkelogo.svg" alt="Ekke logo"></div>
+            <nav class="navbar_container">
+                <ul class="links">
+                    <li class="link"><a href="#home_container">Home</a></li>
+                    <li class="link"><a
+                            href="https://songwhip.com/artist/ekke?fbclid=IwAR2e3HppUviP0UTOST9uu17WN530BrsC7pzWhqbJ1mZ7lP-edjtQZxpPIuQ"
+                            target="_blank">Music</a></li>
+                    <li class="link"><a href="#shows_container">Shows</a></li>
+                    <li class="link"><a href="#media_container">Media</a></li>
+                    <li class="link"><a href="#about_container">About</a></li>
+                    <li class="link"><a href="#footer_container">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
+    <section id="home_container">
         <div class="scroll_icon">
             <div class="wheel_animation">
             </div>
-        </div> -->
+        </div>
     </section>
     <section id="shows_container">
         <div class="shows_content">
@@ -121,7 +116,8 @@
         <p>Ekke has been exposed to a variety of genres throughout his upbringing, from Motown Funk and Jazz to Alternative Rock and of course, hip-hop. Influenced by rappers such as Eminem, Kanye West, The Game, Lil’ Wayne, Dr. Dre, Lupe Fiasco & Jay-Z, Ekke fell in love with hip-hop primarily for the lyricism and story telling. Both of these are major focal points in his own music.</p>
         <p>Ekke makes use of clever word play, exploration of dark & exaggerated themes, hyperbole and complex rhyme schemes to paint pictures and tell stories. Initially rapping under the moniker ‘Palendroam’, Ekke honed his craft writing original lyrics over popular beats before transitioning into production and creation of entirely original material.</p>
         </div>
-        <footer id="footer_container">
+    </section>
+    <footer id="footer_container">
             <div class="footer">
                 <div class="socialMedia social_footer">
                     <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
@@ -140,7 +136,6 @@
                 <div class="copyright"><p>&copy; Created by Sean Sernasie and David Vilar</p></div>
             </div>
     </footer>
-    </section>
     <script src="scripts/ekke.js"></script>
 </body>
 
