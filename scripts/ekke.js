@@ -27,7 +27,7 @@ var getYoutube = function () {
             // console.log(objectYT);
             youtubeID = objectYT.items[0].contentDetails.videoId;
             var youtube_container = document.querySelector('#youtube_container');
-            youtube_container.innerHTML = ' <iframe id="ytplayer" type="text/html" width="896" height="504" src="https://www.youtube.com/embed/' + youtubeID + '"frameborder="0"></iframe>';
+            youtube_container.innerHTML = ' <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/' + youtubeID + '"frameborder="0"></iframe>';
             // youtube_container.innerHTML = most recent upload in playlist "videos" (not first in playlist)
         }
     }
@@ -76,4 +76,3 @@ var getInsta = function () {
 
 getYoutube();
 // getInsta();
-

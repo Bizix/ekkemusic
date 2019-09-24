@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <section id="home_container">
     <header id="header">
         <div class="header_container">
             <div class="socialMedia">
@@ -44,7 +45,6 @@
             </nav>
         </div>
     </header>
-    <section id="home_container">
         <div class="scroll_icon">
             <div class="wheel_animation">
             </div>
@@ -101,6 +101,7 @@
     <section id="media_container">
         <div id="media">
             <div id="insta_container">
+                
             </div>
             <div id="youtube_container">
                 <!-- <iframe id="ytplayer" type="text/html" width="896" height="504"
@@ -116,10 +117,9 @@
         <p>Ekke has been exposed to a variety of genres throughout his upbringing, from Motown Funk and Jazz to Alternative Rock and of course, hip-hop. Influenced by rappers such as Eminem, Kanye West, The Game, Lil’ Wayne, Dr. Dre, Lupe Fiasco & Jay-Z, Ekke fell in love with hip-hop primarily for the lyricism and story telling. Both of these are major focal points in his own music.</p>
         <p>Ekke makes use of clever word play, exploration of dark & exaggerated themes, hyperbole and complex rhyme schemes to paint pictures and tell stories. Initially rapping under the moniker ‘Palendroam’, Ekke honed his craft writing original lyrics over popular beats before transitioning into production and creation of entirely original material.</p>
         </div>
-    </section>
-    <footer id="footer_container">
+        <footer id="footer_container">
             <div class="footer">
-                <div class="socialMedia social_footer">
+                <div class="social_footer">
                     <a href="https://www.facebook.com/itsekke" target="_blank" id="facebook"><i
                             class="fab fa-facebook-f"></i></a>
                     <a href="https://twitter.com/itsekke" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
@@ -136,6 +136,7 @@
                 <div class="copyright"><p>&copy; Created by Sean Sernasie and David Vilar</p></div>
             </div>
     </footer>
+    </section>
     <script src="scripts/ekke.js"></script>
 </body>
 
