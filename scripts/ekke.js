@@ -3,18 +3,7 @@ var getYoutube = function () {
     var key = "AIzaSyAtO185zLEYwvnXo_fA4_MFJhwkTPBfaDo";
     var youtubeID;
     let video_id;
-    // PROBLEM 1
-    // reference site : https://developers.google.com/youtube/v3/guides/implementation/playlists
 
-
-    // Part 1 (not needed??)
-    // var url = 'https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.channels.list?' +
-    //     'part=contentDetails' +
-    //     '&id=UC1LupZh5xH3EATWUtHr07RA';
-    // '&key=' + key;
-
-    // Part 2 
-    // var url = "https://www.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UC1LupZh5xH3EATWUtHr07RA&key=" + key;
     var playlistID = 'PLapZNv8wV6KaeTnDpx0ArdbfuWPYwbA0r';
     var url = "https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=1&playlistId=" + playlistID + "&key=" + key;
 
@@ -24,11 +13,9 @@ var getYoutube = function () {
         if (yxhr.readyState === XMLHttpRequest.DONE && yxhr.status === 200) {
             console.log(yxhr.responseText);
             let objectYT = JSON.parse(yxhr.responseText);
-            // console.log(objectYT);
             youtubeID = objectYT.items[0].contentDetails.videoId;
             var youtube_container = document.querySelector('#youtube_container');
-            youtube_container.innerHTML = ' <iframe id="ytplayer" type="text/html" width="896" height="504" src="https://www.youtube.com/embed/' + youtubeID + '"frameborder="0"></iframe>';
-            // youtube_container.innerHTML = most recent upload in playlist "videos" (not first in playlist)
+            youtube_container.innerHTML = ' <iframe id="ytplayer" type="text/html" width="896" height="504" src="https://www.youtube.com/embed/' + youtubeID + '"frameborder="0" allowfullscreen="true"></iframe>';
         }
     }
     yxhr.send();
